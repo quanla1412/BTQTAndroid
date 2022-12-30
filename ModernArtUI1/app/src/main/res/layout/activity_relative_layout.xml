@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="128dp"
+        android:layout_height="131dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="128dp"
+        android:background="@color/color1" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="195dp"
+        android:layout_height="379dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="142dp"
+        android:background="@color/color2" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="137dp"
+        android:layout_height="175dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="314dp"
+        android:background="@color/color3" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="189dp"
+        android:layout_height="159dp"
+        android:background="@color/color4" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="160dp"
+        android:layout_height="158dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/color5" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentBottom="true"
+        android:max="4"/>
+
+</RelativeLayout>
